@@ -16,7 +16,7 @@ public class EiEiInwZa : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    { 
-        transform.position = (Mathf.Sin(speed/Time.deltaTime)) * startPos *Time.deltaTime;
+    {
+        transform.position = (Mathf.Sin(speed/Time.deltaTime)) + startPos;
     }
 }
